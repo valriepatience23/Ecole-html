@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2,4 et 5</title>
+    <link rel="stylesheet" href="Exercise.CSS">
+</head>
+<body>
+    <h1>Exercice 2</h1>
+    <hr>
+    <table>
+        <tr>
+            <td colspan="3">Cette colonne occupe toute la  largeur du tableau. </td>
+        </tr>
+        <tr>
+            <td class="gauch">Alignement à gauche</td>
+            <td class="cent">Texte centré</td>
+            <td class="droit">Alignement à droite</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Cette cellule occupe deux lignes</td>
+            <td class="Rou">Ecrit  en rouge</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Je ne définis que</td>
+            <td>Deux cellules sur cette ligne</td>
+        </tr>
+        <tr>
+            <td colspan="2">Fusion de deux cellules</td>
+            <td class="org"></td>
+        </tr>
+    </table>
+
+
+    <h1>Exercice 4</h1>
+    <hr>
+        <p class="MS">J'utlise la police Comic Sans MS</p><br>
+        <p class="Ari">J'utlise la police Arial</p><br>
+        <p class="Verd">J'utlise la police Verdana</p><br>
+
+
+        <h1>Exercice 5</h1>
+        <hr>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend><b>Vos coordonnées</b></legend>
+                <table>
+                    <tr>
+                        <td><label for="name">Nom : </label></td>
+                        <td><input id="name" type="text" placeholder="Votre nom"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="surname">Prénom : </label></td>
+                        <td><input id="surname" type="text" placeholder="Votre prénom"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="birth">Date de naissance : </label></td>
+                        <td><input id="birth" type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">Mail : </label></td>
+                        <td><input id="mail" type="mail" placeholder="Votre mail"></td>
+                    </tr>
+       
+                    <tr>
+                        <td><label for="site">Votre site : </label></td>
+                        <td><input id="site" type="url"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="code">Code : </label></td>
+                        <td><input id="code" type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Genre : </td>
+                        <td>
+                            <input type="radio" name="gender" id="male"><label for="male">Homme</label><br>
+                            <input type="radio" name="gender" id="female"><label for="male">Femme</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Pays : </td>
+                        <td>
+                            <select name="country" id="country">
+                                <option value="Algerie">Algerie</option>
+                                <option value="Benin">Benin</option>
+                                <option value="Cameroun">Cameroun</option>
+                                <option value="Djibouti">Djibouti</option>
+                                <option value="Ethiopie">Ethiopie</option>
+                                <option value="Findlande">Findlande</option>
+                                <option value="Gabon">Gabon</option>
+                                <option value="Haitie">Haitie</option>
+                                <option value="sénégale">Sénégale</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend><b>Vos goûts</b></legend>
+                <input type="checkbox" name="gout" id="fraise"><label for="fraise">Tarte aux fraises à la crème d'amandes</label><br>
+                <input type="checkbox" name="gout" id="prunes"><label for="prunes">Tarte aux prunes</label><br>
+                <input type="checkbox" name="gout" id="rustique"><label for="rustique">Tarte rustique aux mirabelles de Lorraine, noisettes et miel</label><br>
+                <textarea name="more" id="more" placeholder="Décrivez vos goûts en détail" rows="10" cols="50"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend><b>Envoyez nous votre photo</b></legend>
+                <input type="file"><br><br>
+                <b><input type="submit" value="Effacer"></b>
+                <b></b><input type="reset"></b>
+            </fieldset>
+        </form>
+</body>
+</html>
