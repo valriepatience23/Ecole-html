@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises de html</title>
+</head>
+    <body bgcolor="#00ffff">
+        <h1 align="center"><i>Corrigé des exercices de HTML</i></h1>
+        <hr width="80%" size="2">
+        <h2><b>Exercice 2</b></h2>
+        <table align="center" border="1" width="80%" cellpadding="6" cellspacing="6">
+            <tr>
+                <td colspan="3" align="center">Cette colonne occupe toute la  largeur du tableau. </td>
+            </tr>
+            <tr>
+                <td align="left" width="33%">Alignement à gauche</td>
+                <td align="center" width="33%">Texte centré</td>
+                <td align="right" width="33%">Alignement à droite</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Cette cellule occupe deux lignes</td>
+                <td><font color="red">Ecrit  en rouge</font></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Je ne définis que</td>
+                <td>Deux cellules sur cette ligne</td>
+            </tr>
+            <tr>
+                <td colspan="2">Fusion de deux cellules</td>
+                <td bgcolor="orange"></td>
+            </tr>
+        </table>
+        <h2><b>exo3</b></h2>
+        <ul>
+            <li>Titre 1</li>
+            <li>Titre 2</li>
+                <ul>
+                    <li>Section 1</li>
+                    <li>Section 2</li>
+                        <ul>
+                            <li>Sous-section 1</li>
+                            <li>Sous-section 2</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Titre 3
+                <ul>
+                    <li>Section 1</li>
+                    <li>Section 2</li>
+                </ul>
+            </li>
+        </ul>
+    
+        <h2><b>exo4</b></h2>
+    
+        <font face="Comic Sans MS">J'utlise la police Comic Sans MS</font><br>
+        <font face="Arial">J'utlise la police Arial</font><br>
+        <font face="Verdana">J'utlise la police Verdana</font><br>
+    
+        <h2><b>exo5</b></h2>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend><b>Vos coordonnées</b></legend>
+                <table>
+                    <tr>
+                        <td><label for="name">Nom : </label></td>
+                        <td><input id="name" type="text" placeholder="Votre nom"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="surname">Prénom : </label></td>
+                        <td><input size="60%" id="surname" type="text" placeholder="Votre prénom"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="birth">Date de naissance : </label></td>
+                        <td><input id="birth" type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">Mail : </label></td>
+                        <td><input size="30%" id="mail" type="mail" placeholder="Votre mail"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="site">Votre site : </label></td>
+                        <td><input id="site" type="url"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="code">Code : </label></td>
+                        <td><input id="code" type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Genre : </td>
+                        <td>
+                            <input type="radio" name="gender" id="male"><label for="male">Homme</label><br>
+                            <input type="radio" name="gender" id="female"><label for="male">Femme</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pays : </td>
+                        <td>
+                            <select name="country" id="country">
+                                <option value="desc">Votre pays</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend><b>Vos goûts</b></legend>
+                    <input type="checkbox" name="gout" id="fraise"><label for="fraise">Tarte aux fraises à la crème d'amandes</label><br>
+                    <input type="checkbox" name="gout" id="prunes"><label for="prunes">Tarte aux prunes</label><br>
+                    <input type="checkbox" name="gout" id="rustique"><label for="rustique">Tarte rustique aux mirabelles de Lorraine, noisettes et miel</label><br>
+                    <textarea name="more" id="more" placeholder="Décrivez vos goûts en détail" rows="10" cols="50"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend><b>Envoyez nous votre photo</b></legend>
+                <input type="file"><br><br>
+                <input type="submit" value="Effacer">
+                <input type="reset">
+            </fieldset>
+        </form>
+    
+    
+        <h2><b>exo6</b></h2>
+        <fieldset>
+            <legend>Coordonnées</legend>
+            <table width="100%">
+                <form action="#" method="POST">
+                    <tr>
+                        <td><b>Civilité</b></td>
+                        <td>
+                            <input type="radio" name="civilite" id="mlle"><label for="mlle">Mademoiselle</label>
+                            <input type="radio" name="civilite" id="mme"><label for="mme">Madame</label>
+                            <input type="radio" name="civilite" id="mr"><label for="mr">Monsieur</label>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td><b>Nom / Prénom</b></td>
+                        <td>
+                            <input type="text" width="100%" size="100%">
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td><b>Adresse</b></td>
+                        <td>
+                            <textarea name="address" id="address" cols="50" placeholder="Rue N° Boîte postale"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Code postal / <br>Localité / <br>Gouvernorat</b></td>
+                        <td>
+                            <input type="text" name="code">
+                            <input type="text" name="loc" id="loc" placeholder="Jendouba">
+                            <select name="gouv" id="gouv">
+                                <option value="jen">Jendouba</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Pays</b></td>
+                        <td>
+                            <select name="count" id="count">
+                                <option value="tunis">Tunisie</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Plateforme(s)</b></td>
+                        <td>
+                            <input type="checkbox" name="platform" id="win"><label for="win">Windows</label>
+                            <input type="checkbox" name="platform" id="mac"><label for="mac">Macintosh</label>
+                            <input type="checkbox" name="platform" id="un"><label for="un">Unix</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Application(s)</b></td>
+                        <td>
+                            <select name="app" id="app" multiple>
+                                <option value="bur">Bureautique</option>
+                                <option value="dao">DAO</option>
+                                <option value="stat">Statistiques</option>
+                                <option value="sgbd">SGBD</option>
+                                <option value="int">Internet</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="center">
+                            <input type="submit" value="Soumettre le formulaire">
+                            <input type="reset" value="Effacer">
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </fieldset>
+</body>
+</html>
