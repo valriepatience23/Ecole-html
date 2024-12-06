@@ -1,0 +1,189 @@
+body{ 
+    background-color: azure;
+}
+
+h1{ 
+    text-align: center;
+    color: black;
+    font-size: 32px;
+}
+
+hr{ 
+    border: 2px solid #070707;
+}
+
+table{ 
+   width: 80%;
+   text-align: center;
+   border: 2px solid #070707;
+   padding: 0px;
+   border-spacing: 1px;
+   
+
+}
+
+td{ 
+    padding: 10px;
+    border: 1px solid #070707;
+}
+
+.Rou{
+    color: red;
+}
+
+.gauch{ 
+    text-align: left;
+}
+
+.cent{ 
+    text-align: center;
+}
+
+.droit{ 
+    text-align: right;
+}
+
+.org{ 
+    background-color: orange;
+}
+
+.MS{ 
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 25px;
+}
+
+.Ari{ 
+    text-align: center;
+    font-family: Arial;
+    font-size: 23px;
+}
+
+.Verd{ 
+    text-align: center;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+
+table{ 
+    border-collapse: collapse;
+    border: none;
+}
+
+td{
+    border: none;
+    font-size: 18px;
+}
+
+label{
+
+    font-size: 18px;
+    display: block;
+    
+}
+
+fieldset{
+    border: 2px solid #070707;
+    border-radius: 6px ;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="mail"],
+input[type="url"],
+input[type="datet"] { 
+width: 443px;
+height: 26px;
+padding: 5px;
+font-size: 13px;
+border-radius: 5px;
+border: 1px solid #070707;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+input[type="radio"]{ 
+    background-color: #f2f2f2;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-right: -20px;
+}
+
+input[type="date"]{ 
+    background-color: #f2f2f2;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    width: 443px;
+    height: 26px;
+    padding: 5px;
+    font-size: 13px;
+    margin-left: -1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+    
+}
+
+legend{ 
+    font-size: 22px;
+}
+
+input[type="checkbox"]{
+
+      width: 10px;
+      height: 10px;
+      margin: 5px;
+      float: left;
+      
+}
+
+select{ 
+    width: 443px;
+    height: 26px;
+    border: 1px solid #070707;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    margin-left: -2px;
+}
+
+textarea{
+    width: 928px;
+    height: 196px;
+    font-size: 12px;
+}
+
+input[type="file"]{ 
+    width: 443px;
+    height: 26px;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #f2f2f2;
+    color: rgb(3, 3, 3);
+}
+
+input[type="submit"]{ 
+    width: 143px;
+    height: 26px;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #4268fe;
+    font-weight: bold;
+}
+
+input[type="reset"]{ 
+    width: 143px;
+    height: 26px;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #23f918;
+    font-weight: bold;
+}
